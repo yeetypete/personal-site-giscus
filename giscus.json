@@ -1,5 +1,8 @@
 {
-	"origins": ["https://petersiegel.dev", "https://personal-site-4zg.pages.dev"],
-	"originsRegex": ["http://localhost:[0-9]+"],
+	"origins": ["https://petersiegel.dev"],
+	"originsRegex": [
+		"http://localhost:[0-9]+",
+		"https?://[^.]+\\.personal-site-4zg\\.pages\\.dev"
+	],
 	"defaultCommentOrder": "newest"
 }
